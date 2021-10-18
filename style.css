@@ -1,0 +1,84 @@
+body {
+    background-color: #d3e1ee;
+}
+
+/* header css */
+header div {
+    border: none;
+    background-color:#DCAE96;
+    margin: 25px 0;
+    padding: 5px 15px;
+}
+header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+h1{
+    font-size: 2.9em;
+    background-color: #DCAE96;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-size: 1.5em;
+    background-color: #DCAE96;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* 2nd box css */
+.cal_box {
+    background-color: #DCAE96;
+    border: none;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+    font-family: monospace;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+label{
+    display: inline-block;
+}
+input[type=text]{
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(65, 65, 65);
+    width: 95%;
+    box-sizing: border-box;
+}
+#subtotal, #tax_rate{
+    background-color: floralwhite;
+}
+#sales_tax, #total {
+    background-color: rgb(228, 220, 201);
+}
+#buttons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+button[type=reset], button[type=button] {
+    font-family: monospace;
+    font-size: 0.95em;
+    font-weight: bold;
+    cursor: pointer;
+    display:inline;
+    background-color: floralwhite;
+    padding: 10px 15px;
+}
+img {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 27%;
+}
+footer{
+    text-align: center;
+    font-size: 1.07em;
+}
